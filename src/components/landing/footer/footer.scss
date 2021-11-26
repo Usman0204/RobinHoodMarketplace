@@ -1,0 +1,182 @@
+.main-footer {
+    background-image: url("/Assets/rsz_footer-1234.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    // background-position: 100% 100%;
+ 
+        .left-side-fot{
+            h4{
+                font-family: 'poppins';
+                font-weight: 500;
+                font-size: 22px;
+                color: rgb(138, 135, 135);
+                padding-bottom: 26px;
+            }
+            p{
+                font-family: 'popins';
+                font-size: 18px;
+                font-weight: 400;
+                color: rgb(138, 135, 135);
+                padding-right: 50px;
+                padding-bottom: 26px;
+            }
+            .socials{
+                display: flex;
+                margin-top: 100px;
+                .mm{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: rgb(138, 135, 135);
+                    color: #000;
+                    font-size: 22px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .mid-m-fot{
+            text-align: center;
+            img{
+                width: 200px;
+                text-align: center;
+            }
+        }
+        .right-side-fot{
+            display: flex;
+            float: right;
+            .abb{
+                margin-left: 20px;
+                h4{
+                    padding-bottom: 26px;
+                    font-family: 'poppins';
+                    color: rgb(138, 135, 135);
+                    font-size: 20px;
+                }
+                li{
+                   a{
+                    font-family: 'poppins';
+                    color: rgb(138, 135, 135);
+                    font-size: 14px;
+                   }
+                  
+                }
+            }
+        }
+   
+        .inner-icon {
+           h5 {
+               margin-bottom: 20px;
+           }
+
+           .btn-common {
+            border-radius: 0px 10px 10px 0px;
+           }
+
+           h6 {
+               font-size: 12px;
+           }
+
+           li {
+               padding-bottom: 10px;
+
+               a:hover {
+                   
+                       color: #6C01C3;
+                
+               }
+           }
+            input {
+                border: 2px solid #6C01C3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: transparent;
+    height: 42px;
+    margin-bottom: 20px;
+            }
+
+            .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+
+            .input-group-append {
+                position: absolute;
+                right: 0px;
+                top: -9px;
+            }
+        }
+}
+
+@media only screen and (max-width: 600px) { 
+    .main-footer .mid-m-fot img{
+        width: 200px!important;
+    }
+    .main-footer {
+        text-align: center;
+
+        .inner-icon {
+            h5 {
+                margin-bottom: 20px;
+            }
+ 
+            .btn-common {
+             border-radius: 0px 10px 10px 0px;
+            }
+ 
+            h6 {
+                font-size: 12px;
+                margin: 0 auto;
+            }
+ 
+            li {
+                padding-bottom: 10px;
+ 
+                a:hover {
+                    
+                        color: #6C01C3;
+                 
+                }
+            }
+             input {
+                 border: 2px solid #6C01C3;
+     box-sizing: border-box;
+     border-radius: 8px;
+     background: transparent;
+     height: 42px;
+     width: 100% !important;
+     margin-bottom: 20px;
+    }
+    
+    .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+                 border-top-right-radius: 8px;
+                 border-bottom-right-radius: 8px;
+             }
+ 
+             .input-group-append {
+                 position: absolute;
+                 right: 0px;
+                 top: -9px;
+             }
+         }
+    }
+}
+
+.main-footer {
+    .inner-icon{
+        h5{
+            color: #F8FAFC;
+        }
+    }
+}
+
+.img-mdnh{
+    // width: 60px;
+    // height: 200px;
+}
